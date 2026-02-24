@@ -1,0 +1,74 @@
+*{
+  margin: 0 !important;
+  color: white;
+}
+
+body {
+  background: #151517;
+}
+
+.bg-primary {
+  background: #2c2c2e;
+}
+
+.bg-secondary {
+  background: #1b1b1c !important;
+}
+
+.btn.btn-primary {
+  transition: all 0.3s ease !important;
+  background: white;
+  border-color: white;
+  color: black;
+}
+.btn.btn-primary:hover{
+  background: transparent;
+  border-color: white;
+  color: white;
+}
+.btn.btn-primary:active {
+  background: white;
+  border-color: white;
+  color: black;
+  transform: scale(0.99);
+}
+
+.btn.btn-secondary {
+  transition: all 0.3s ease !important;
+  background: transparent;
+  border-color: white;
+}
+.btn.btn-secondary:hover {
+  background: #ccc;
+  border-color: transparent;
+  color: black;
+}
+.btn.btn-secondary:active {
+  background: transparent;
+  border-color: white;
+  color: white;
+  transform: scale(0.99);
+}
+
+.form-control.text-field {
+  transition: all 0.3s ease !important;
+  background-color: #2c2c2e;
+  border: #ccc;
+  color: white;
+  padding: 4px 8px 6px 10px !important;
+}
+.form-control.text-field:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.6); /* синий как у Bootstrap */
+    border-radius: inherit;
+    padding: 4px 8px 6px 12px !important;
+}
+
+@media (min-width: 769px) {
+  .auth-container {
+    width: 350px;
+  }
+  .container {
+    width: 600px !important;
+  }
+}
